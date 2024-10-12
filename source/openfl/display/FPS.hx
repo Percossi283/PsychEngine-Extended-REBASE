@@ -88,8 +88,8 @@ class FPS extends TextField
 			
 			#if openfl
 			memoryMegas = Math.abs(FlxMath.roundDecimal(System.totalMemory / 1000000, 1));
-			text += "\nVersion: Psych Extended 0.6.3";
-			text += "\nMemory: " + memoryMegas + " MB";
+			text += "\nVersion: Psych Engine Extended 0.6.3";
+			text += "\nMemory: " + memoryMegas + " RAM";
 			#end
 
 			textColor = 0xFFFFFFFF;
